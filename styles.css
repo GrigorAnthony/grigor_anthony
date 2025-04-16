@@ -106,7 +106,7 @@ img {
        body {
        background-image: url('https://s.iimg.su/s/16/1IbqJsSxv1GihXGtC9KcrVfQJ4yI3rFEHiZlKLsw.jpg');
        background-size: cover;
-       background-attachment: scroll; /* Отключите фиксированное закрепление на мобильных */
+       background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
    }
 
           @media (min-width: 768px) {
