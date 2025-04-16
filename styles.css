@@ -104,7 +104,7 @@ img {
        body {
        background-image: url('https://s.iimg.su/s/16/jGHsr0K8WPAjswn8RUCXcYYTvaHI2twEYuIJ3uUd.jpg');
        background-size: cover;
-           background-attachment: scroll; /* Отключите фиксированное закрепление на мобильных */
+       background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
    }
     
     header {
