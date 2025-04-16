@@ -102,7 +102,7 @@ img {
 
    @media (max-width: 600px) {
        body {
-       background-image: url('your-background.jpg');
+       background-image: url('https://s.iimg.su/s/16/jGHsr0K8WPAjswn8RUCXcYYTvaHI2twEYuIJ3uUd.jpg');
        background-size: cover;
            background-attachment: scroll; /* Отключите фиксированное закрепление на мобильных */
    }
