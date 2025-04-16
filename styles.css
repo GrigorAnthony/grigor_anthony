@@ -1,12 +1,24 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0; /* Убираем отступы, чтобы фоновое изображение располагалось корректно */
-    padding: 0; /* Убираем отступы по умолчанию */
+    padding: 0 15px; /* Убираем отступы по умолчанию */
+    box-sizing: border-box; /* Убедитесь, что padding не увеличивает общую ширину */
     height: 100vh; /* Устанавливаем высоту body на весь экран */
     background-image: url('https://s.iimg.su/s/16/jGHsr0K8WPAjswn8RUCXcYYTvaHI2twEYuIJ3uUd.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-attachment: fixed; 
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 100px; /* Уменьшите ширину логотипа для мобильных устройств */
+        top: 5px; /* Измените отступ сверху, если необходимо */
+    }
+
+    header {
+        height: 150px; /* Уменьшите высоту заголовка для мобильных устройств */
+    }
 }
 
 .content {
@@ -62,7 +74,7 @@ footer {
 }
 
 img {
-    width: 100%; 
+    max-width: 100%; /* Ограничьте ширину изображений */
     height: auto; 
     display: block; 
     object-fit: contain; /* Это можно изменить на cover, если нужно */
