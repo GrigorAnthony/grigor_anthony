@@ -7,7 +7,7 @@ body {
     margin: 0; /* Убираем отступы, чтобы фоновое изображение располагалось корректно */
     padding: 0; /* Убираем отступы по умолчанию */
     height: 100vh; /* Устанавливаем высоту body на весь экран */
-    background-image: url('https://s.iimg.su/s/16/jGHsr0K8WPAjswn8RUCXcYYTvaHI2twEYuIJ3uUd.jpg'); 
+    background-image: url('https://s.iimg.su/s/16/FycXb0NbLyFSR6mS8WLCdsjYGLdqWxCcZWPTsPRg.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-attachment: fixed; 
@@ -104,20 +104,20 @@ img {
 
    @media (max-width: 600px) {
        body {
-       background-image: url('https://s.iimg.su/s/16/1IbqJsSxv1GihXGtC9KcrVfQJ4yI3rFEHiZlKLsw.jpg');
+       background-image: url('https://s.iimg.su/s/16/rEcIcEoAJtHcpaHpDRNYESxiUB9VEpdGQxGtxUm6.jpg');
        background-size: cover;
        background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
    }
 
           @media (min-width: 768px) {
        .background {
-           background-image: url('https://s.iimg.su/s/16/1IbqJsSxv1GihXGtC9KcrVfQJ4yI3rFEHiZlKLsw.jpg');
+           background-image: url('https://s.iimg.su/s/16/rEcIcEoAJtHcpaHpDRNYESxiUB9VEpdGQxGtxUm6.jpg');
        }
    }
 
          @media (min-width: 1200px) {
        .background {
-           background-image: url('https://s.iimg.su/s/16/1IbqJsSxv1GihXGtC9KcrVfQJ4yI3rFEHiZlKLsw.jpg');
+           background-image: url('https://s.iimg.su/s/16/rEcIcEoAJtHcpaHpDRNYESxiUB9VEpdGQxGtxUm6.jpg');
        }
    }
     
