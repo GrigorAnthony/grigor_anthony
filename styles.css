@@ -102,9 +102,21 @@ img {
 
    @media (max-width: 600px) {
        body {
-       background-image: url('https://s.iimg.su/s/16/jGHsr0K8WPAjswn8RUCXcYYTvaHI2twEYuIJ3uUd.jpg');
+       background-image: url('https://s.iimg.su/s/16/dxa8GiPBg7ej348G6HjX5krV06OJT9nNaSudAFmc.jpg');
        background-size: cover;
-       background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
+       background-attachment: scroll; /* Отключите фиксированное закрепление на мобильных */
+   }
+
+          @media (min-width: 768px) {
+       .background {
+           background-image: url('https://s.iimg.su/s/16/dxa8GiPBg7ej348G6HjX5krV06OJT9nNaSudAFmc.jpg');
+       }
+   }
+
+         @media (min-width: 1200px) {
+       .background {
+           background-image: url('https://s.iimg.su/s/16/dxa8GiPBg7ej348G6HjX5krV06OJT9nNaSudAFmc.jpg');
+       }
    }
     
     header {
