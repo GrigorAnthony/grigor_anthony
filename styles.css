@@ -23,6 +23,8 @@ header {
 }
 
 footer {
+    position: relative; /* или fixed, если футер должен оставаться на экране */
+    bottom: 0;
     width: 100%; /* Убедитесь, что ширина 100% */
     padding: 10px 0; 
     background-image: url('https://s.iimg.su/s/16/IbtfdlFz4wT1BtNnhaoi7zKeFGgU9HO568G6DxVK.jpg'); 
