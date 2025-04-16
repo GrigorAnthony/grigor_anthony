@@ -7,7 +7,7 @@ body {
     margin: 0; /* Убираем отступы, чтобы фоновое изображение располагалось корректно */
     padding: 0; /* Убираем отступы по умолчанию */
     height: 100vh; /* Устанавливаем высоту body на весь экран */
-    background-image: url('https://s.iimg.su/s/16/2ptGcQ3ghkAkMg031iuqzQNBgwQwewMgxwkPWNWa.jpg'); 
+    background-image: url('https://s.iimg.su/s/16/jGHsr0K8WPAjswn8RUCXcYYTvaHI2twEYuIJ3uUd.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-attachment: fixed; 
