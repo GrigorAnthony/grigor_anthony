@@ -108,7 +108,7 @@ img {
        background-size: contain;
        background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
        background-repeat: no-repeat; /* Изображение не будет повторяться */
-       background-position: center; /* Фон будет центрирован */
+       background-position: center center; /* Фон будет центрирован */
        height: 150vh; /* Занимает 100% высоты окна */
        
    }
@@ -119,7 +119,7 @@ img {
            background-size: contain;
            background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
            background-repeat: no-repeat; /* Изображение не будет повторяться */
-           background-position: center; /* Фон будет центрирован */
+           background-position: center center; /* Фон будет центрирован */
            height: 150vh; /* Занимает 100% высоты окна */
    }
        }
@@ -131,7 +131,7 @@ img {
            background-size: contain;
            background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
            background-repeat: no-repeat; /* Изображение не будет повторяться */
-           background-position: center; /* Фон будет центрирован */
+           background-position: center center; /* Фон будет центрирован */
            height: 150vh; /* Занимает 100% высоты окна */
 
    }
