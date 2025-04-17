@@ -104,12 +104,9 @@ img {
 
    @media (max-width: 600px) {
        body {
-       background-image: url('https://s.iimg.su/s/16/rEcIcEoAJtHcpaHpDRNYESxiUB9VEpdGQxGtxUm6.jpg');
-       background-size: cover;
-       background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
-       background-repeat: no-repeat; /* Изображение не будет повторяться */
-       background-position: center; /* Фон будет центрирован */
-       height: 100vh; /* Занимает 100% высоты окна */
+           background-image: url('https://s.iimg.su/s/16/rEcIcEoAJtHcpaHpDRNYESxiUB9VEpdGQxGtxUm6.jpg');
+           background-size: cover;
+           background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
        
    }
 
@@ -118,9 +115,6 @@ img {
            background-image: url('https://s.iimg.su/s/16/rEcIcEoAJtHcpaHpDRNYESxiUB9VEpdGQxGtxUm6.jpg');
            background-size: cover;
            background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
-           background-repeat: no-repeat; /* Изображение не будет повторяться */
-           background-position: center; /* Фон будет центрирован */
-           height: 100vh; /* Занимает 100% высоты окна */
    }
        }
    }
@@ -130,9 +124,6 @@ img {
            background-image: url('https://s.iimg.su/s/16/rEcIcEoAJtHcpaHpDRNYESxiUB9VEpdGQxGtxUm6.jpg');
            background-size: cover;
            background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
-           background-repeat: no-repeat; /* Изображение не будет повторяться */
-           background-position: center; /* Фон будет центрирован */
-           height: 100vh; /* Занимает 100% высоты окна */
 
    }
        }
