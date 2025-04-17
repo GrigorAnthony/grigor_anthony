@@ -107,6 +107,8 @@ img {
        background-image: url('https://s.iimg.su/s/16/rEcIcEoAJtHcpaHpDRNYESxiUB9VEpdGQxGtxUm6.jpg');
        background-size: contain;
        background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
+       background-repeat: no-repeat; /* Изображение не будет повторяться */
+       background-position: center; /* Фон будет центрирован */
    }
 
           @media (min-width: 768px) {
@@ -114,6 +116,8 @@ img {
            background-image: url('https://s.iimg.su/s/16/rEcIcEoAJtHcpaHpDRNYESxiUB9VEpdGQxGtxUm6.jpg');
            background-size: contain;
            background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
+           background-repeat: no-repeat; /* Изображение не будет повторяться */
+           background-position: center; /* Фон будет центрирован */
    }
        }
    }
@@ -123,6 +127,8 @@ img {
            background-image: url('https://s.iimg.su/s/16/rEcIcEoAJtHcpaHpDRNYESxiUB9VEpdGQxGtxUm6.jpg');
            background-size: contain;
            background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
+           background-repeat: no-repeat; /* Изображение не будет повторяться */
+           background-position: center; /* Фон будет центрирован */
    }
        }
    }
