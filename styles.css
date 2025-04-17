@@ -112,12 +112,18 @@ img {
           @media (min-width: 768px) {
        .background {
            background-image: url('https://s.iimg.su/s/16/rEcIcEoAJtHcpaHpDRNYESxiUB9VEpdGQxGtxUm6.jpg');
+           background-size: cover;
+           background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
+   }
        }
    }
 
          @media (min-width: 1200px) {
        .background {
            background-image: url('https://s.iimg.su/s/16/rEcIcEoAJtHcpaHpDRNYESxiUB9VEpdGQxGtxUm6.jpg');
+           background-size: cover;
+           background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
+   }
        }
    }
     
