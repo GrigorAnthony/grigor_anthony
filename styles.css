@@ -105,22 +105,22 @@ img {
    @media (max-width: 600px) {
        body {
        background-image: url('https://s.iimg.su/s/16/rEcIcEoAJtHcpaHpDRNYESxiUB9VEpdGQxGtxUm6.jpg');
-       background-size: contain;
+       background-size: cover;
        background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
        background-repeat: no-repeat; /* Изображение не будет повторяться */
-       background-position: center center; /* Фон будет центрирован */
-       height: 150vh; /* Занимает 100% высоты окна */
+       background-position: center; /* Фон будет центрирован */
+       height: 100vh; /* Занимает 100% высоты окна */
        
    }
 
           @media (min-width: 768px) {
        .background {
            background-image: url('https://s.iimg.su/s/16/rEcIcEoAJtHcpaHpDRNYESxiUB9VEpdGQxGtxUm6.jpg');
-           background-size: contain;
+           background-size: cover;
            background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
            background-repeat: no-repeat; /* Изображение не будет повторяться */
-           background-position: center center; /* Фон будет центрирован */
-           height: 150vh; /* Занимает 100% высоты окна */
+           background-position: center; /* Фон будет центрирован */
+           height: 100vh; /* Занимает 100% высоты окна */
    }
        }
    }
@@ -128,11 +128,11 @@ img {
          @media (min-width: 1200px) {
        .background {
            background-image: url('https://s.iimg.su/s/16/rEcIcEoAJtHcpaHpDRNYESxiUB9VEpdGQxGtxUm6.jpg');
-           background-size: contain;
+           background-size: cover;
            background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
            background-repeat: no-repeat; /* Изображение не будет повторяться */
-           background-position: center center; /* Фон будет центрирован */
-           height: 150vh; /* Занимает 100% высоты окна */
+           background-position: center; /* Фон будет центрирован */
+           height: 100vh; /* Занимает 100% высоты окна */
 
    }
        }
