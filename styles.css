@@ -104,8 +104,8 @@ img {
 
    @media (max-width: 600px) {
        body {
-       background-image: url('https://s.iimg.su/s/17/9pXpn8OmFLWl9TGVqH2hetg6gFUwjYt5tvV02yGQ.jpg');
-       background-size: contain;
+       background-image: url('https://s.iimg.su/s/16/rEcIcEoAJtHcpaHpDRNYESxiUB9VEpdGQxGtxUm6.jpg');
+       background-size: cover;
        background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
        background-repeat: no-repeat; /* Изображение не будет повторяться */
        background-position: center; /* Фон будет центрирован */
@@ -113,8 +113,8 @@ img {
 
           @media (min-width: 768px) {
        .background {
-           background-image: url('https://s.iimg.su/s/17/9pXpn8OmFLWl9TGVqH2hetg6gFUwjYt5tvV02yGQ.jpg');
-           background-size: contain;
+           background-image: url('https://s.iimg.su/s/16/rEcIcEoAJtHcpaHpDRNYESxiUB9VEpdGQxGtxUm6.jpg');
+           background-size: cover;
            background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
            background-repeat: no-repeat; /* Изображение не будет повторяться */
            background-position: center; /* Фон будет центрирован */
@@ -124,8 +124,8 @@ img {
 
          @media (min-width: 1200px) {
        .background {
-           background-image: url('https://s.iimg.su/s/17/9pXpn8OmFLWl9TGVqH2hetg6gFUwjYt5tvV02yGQ.jpg');
-           background-size: contain;
+           background-image: url('https://s.iimg.su/s/16/rEcIcEoAJtHcpaHpDRNYESxiUB9VEpdGQxGtxUm6.jpg');
+           background-size: cover;
            background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
            background-repeat: no-repeat; /* Изображение не будет повторяться */
            background-position: center; /* Фон будет центрирован */
