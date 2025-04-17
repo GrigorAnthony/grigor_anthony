@@ -109,6 +109,8 @@ img {
        background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
        background-repeat: no-repeat; /* Изображение не будет повторяться */
        background-position: center; /* Фон будет центрирован */
+       height: 100vh; /* Занимает 100% высоты окна */
+       
    }
 
           @media (min-width: 768px) {
@@ -118,6 +120,7 @@ img {
            background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
            background-repeat: no-repeat; /* Изображение не будет повторяться */
            background-position: center; /* Фон будет центрирован */
+           height: 100vh; /* Занимает 100% высоты окна */
    }
        }
    }
@@ -129,6 +132,8 @@ img {
            background-attachment: fixed; /* Отключите фиксированное закрепление на мобильных */
            background-repeat: no-repeat; /* Изображение не будет повторяться */
            background-position: center; /* Фон будет центрирован */
+           height: 100vh; /* Занимает 100% высоты окна */
+
    }
        }
    }
