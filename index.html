@@ -81,7 +81,7 @@
         }
 
         .portfolio-item {
-            width: 30%;
+            width: 40%;
             margin: 10px; /* Увеличено до 10px с каждой стороны для лучшего spacing */
             padding: 10px;
             background: #e2e2e2;
@@ -98,7 +98,7 @@
         }
 
         .portfolio-item img:hover {
-            transform: scale(1.06); /* Увеличиваем изображение при наведении */
+            transform: scale(1.10); /* Увеличиваем изображение при наведении */
         }
 
         /* Цвет шрифта для подписей */
@@ -504,7 +504,7 @@
         const y = (window.innerHeight - e.pageY * 2) / 100;
 
         document.querySelectorAll('.portfolio-item').forEach(item => {
-            const speed = 1; // Здесь вы можете изменить скорость параллакса
+            const speed = 0; // Здесь вы можете изменить скорость параллакса
             item.style.transform = `translate(${x * speed}px, ${y * speed}px)`;
         });
     });
