@@ -2,9 +2,9 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">	
     <title>Галерея обложек</title>
+	<link rel="stylesheet" href="styles.css">
 
     <style>
 
@@ -20,11 +20,11 @@
         }
 
         .background {
-            position: fixed; /* Пример свойства */
-            top: 0; /* Пример свойства */
-            left: 0; /* Пример свойства */
-            width: 100%; /* Пример свойства */
-            height: 100%; /* Пример свойства */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
             background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный черный цвет */
             z-index: 0; /* Ставим фон ниже остальных элементов */
         }
@@ -32,10 +32,9 @@
         header {
             background: #35424a;
             color: #ffffff;
-            padding: 90px 0;
+            padding: 105px 0;
             text-align: center;
         }
-
 
         .container {
             width: 80%;
@@ -54,16 +53,7 @@
 
         h2 {
             color: #ffffff; /* Белый цвет заголовков */
-            font-family: 'Montserrat', sans-serif; /* Дизайнерский шрифт для заголовков */
-        }
-
-        /* Обновленный стиль для контактной информации */
-        .contact-info {
-            text-align: center;
-            padding: 15px; /* Увеличенные отступы */
-            color: #ffffff;
-            margin: 20px 0; /* Отступ сверху и снизу для отделения от других элементов */
-            border-radius: 5px; /* Скругленные углы */
+            font-family: 'Montserrat', sans-serif; /* шрифт для заголовков */
         }
 
         footer {
@@ -98,7 +88,7 @@
         }
 
         .portfolio-item img:hover {
-            transform: scale(1.06); /* Увеличиваем изображение при наведении */
+            transform: scale(1.05); /* Увеличиваем изображение при наведении */
         }
 
         /* Цвет шрифта для подписей */
@@ -113,6 +103,7 @@
                 margin: 10px 0;
             }
         }
+		
     </style>
 </head>
 <body>
@@ -496,35 +487,8 @@
     <footer>
         <p>© Изображения для подкаста "Короче, история". 2025 Антоненко Г.С.</p>
     </footer>
-</div>
-
-<script>
-    document.addEventListener('mousemove', function(e) {
-        const x = (window.innerWidth - e.pageX * 2) / 100;
-        const y = (window.innerHeight - e.pageY * 2) / 100;
-
-        document.querySelectorAll('.portfolio-item').forEach(item => {
-            const speed = 0; // Здесь вы можете изменить скорость параллакса
-            item.style.transform = `translate(${x * speed}px, ${y * speed}px)`;
-        });
-    });
-
-    // Сброс позиции при выходе курсора
-    document.addEventListener('mouseleave', function() {
-        document.querySelectorAll('.portfolio-item').forEach(item => {
-            item.style.transform = 'translate(0, 0)';
-        });
-    });
-</script>
-
+	
+<script src="script.js"></script>
 </body>
             <link rel="stylesheet" href="styles.css">
-<body>
-    <div class="content">
-        <h1></h1>
-        <p></p>
-    </div>
-    
-    <script src="script.js"></script>
-</body>
 </html>
